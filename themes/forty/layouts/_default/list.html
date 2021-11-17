@@ -31,7 +31,10 @@
                 <section id="two" class="spotlights">
                     {{ range .Pages }}
                     <section>
-                        <a href="{{ .Permalink }}" class="image">
+                     <!--   <a href="{{ .Permalink }}" class="image">
+							<img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" />
+						</a> -->
+						<a class="image">
 							<img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" />
 						</a>
                         <div class="content">
@@ -40,25 +43,25 @@
                                     <h3>{{ .Title }}</h3>
                                 </header>
                                 <p>{{ .Description }}</p>
-                                <ul class="actions">
+                              <!--  <ul class="actions">
                                     <li><a href="{{ .Permalink }}" class="button">Learn more</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </section>
                     {{ end }}
                 </section>
             </div>
-            
+
         {{ "<!-- Footer -->" | safeHTML}}
 			{{ if .Site.Params.footer.enable }}
 				{{ partial "footer.html" . }}
             {{ end }}
-        
+
         </div>
 
     {{ "<!-- Scripts -->" | safeHTML}}
         {{ partial "js.html" . }}
-        
+
     </body>
 </html>

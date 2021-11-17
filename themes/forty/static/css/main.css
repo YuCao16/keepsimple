@@ -2972,7 +2972,8 @@
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				/* width: 25%; */
+				padding: 4em 4em 4em 4em ;
 			}
 
 				.spotlights > section > .image img {
@@ -3035,10 +3036,11 @@
 					align-items: flex-end;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1480px) {
 
 			.spotlights > section > .image {
-				width: 40%;
+				width: 20%;
+				padding: 4em 3em 2em 3em ;
 			}
 
 			.spotlights > section > .content {
@@ -3050,7 +3052,8 @@
 		@media screen and (max-width: 1280px) {
 
 			.spotlights > section > .image {
-				width: 45%;
+				width: 25%;
+				padding: 4em 3em 2em 3em ;
 			}
 
 			.spotlights > section > .content {

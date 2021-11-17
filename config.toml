@@ -48,17 +48,17 @@ disqusShortname = ""
       name = "Home"
       url = "#"
 
-    [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+#    [[params.navigation.links]]
+#      name = "Blogs"
+#      url = "blogs"
 
-    [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+#    [[params.navigation.links]]
+#      name = "Generic Blog"
+#      url = "blogs/ipsum"
 
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+#    [[params.navigation.links]]
+#      name = "Elements"
+#      url = "elements.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -68,14 +68,14 @@ disqusShortname = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
+    #[[params.navigation.button1]]
+    #  name = "Get Started"
+    #  url = "blogs"
 
     # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
+    #[[params.navigation.button2]]
+    #  name = "Log In"
+    #  url = "#"
 
 
   # Banner section
@@ -87,6 +87,7 @@ disqusShortname = ""
     buttonText = "Get Started"
 
 
+
   # Tiles Section
   [params.tiles]
     enable = true
@@ -96,37 +97,38 @@ disqusShortname = ""
       title = "文书辅导"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "elements.html"
 
     [[params.tiles.showcase]]
       title = "课程辅助"
       subtitle = "Feugiat Amet Tempus"
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "elements.html"
 
     [[params.tiles.showcase]]
       title = "成功案例"
       subtitle = "Lorem Etiam Nullam"
       image = "pic03.jpg"
-      url = "blogs/magna"
-
-    [[params.tiles.showcase]]
-      title = "编程咨询"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
+      url = "elements.html"
 
     [[params.tiles.showcase]]
       title = "挂科申诉"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "pic05.jpg"
-      url = "blogs/ipsum"
+      url = "elements.html"
 
     [[params.tiles.showcase]]
       title = "职业规划"
       subtitle = "Feugiat Amet Tempus"
       image = "pic06.jpg"
-      url = "blogs/ipsum"
+      url = "elements.html"
+
+    [[params.tiles.showcase]]
+      title = "师资力量"
+      subtitle = "Nisl Sed Aliquam"
+      image = "pic04.jpg"
+      #url = "services/shizi"
+      url = "blogs"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -138,7 +140,7 @@ disqusShortname = ""
 
   # Section Type Two
   [params.two]
-    enable = true
+    enable = false
     title = "我们的经验"
     subtitle = """我们的经验我们的经验我们的经验我们的经验我们的经验我们的经验
     我们的经验我们的经验我们的经验我们的经验我们的经验我们的经验我们的经验我们
@@ -171,22 +173,22 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "yu.carl@outlook.com"
+    email = "aplusofficial@outlook.com"
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    phone = "(+44) 07510410202"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    street = "Holloway Road"
+    city = "London, N7 9DS"
+    country = "United Kingdom"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "Aplus Official"
 
     # Uses font awesome icons
     [[params.footer.social]]
@@ -215,6 +217,6 @@ disqusShortname = ""
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
+      text = "Aim: "
+      #url= "https://www.html5up.net"
+      alt = "Just have a rest and let us do the rest"
