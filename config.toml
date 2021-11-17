@@ -83,7 +83,7 @@ disqusShortname = ""
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
     title = "你好，这里是A加留学咨询"
-    subtitle = "我们通过广泛的经验为您的留学之路保价护航。"
+    subtitle = "我们通过广泛的经验为您的留学之路保驾护航。"
     buttonText = "Get Started"
 
 
