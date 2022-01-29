@@ -1,5 +1,5 @@
 {
-  "live": "False",
+  "live": False,
   "rule": "Show some respect",
   "comments_class_name": "index__container--20v4U",
   "pins_class_name": "index__title--3VQSN",
