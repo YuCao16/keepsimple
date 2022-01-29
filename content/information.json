@@ -1,0 +1,12 @@
+{
+  "live": true,
+  "rule": "Show some respect",
+  "comments_class_name": "index__container--20v4U",
+  "pins_class_name": "index__title--3VQSN",
+  "dashboard_panel": "index__selectableWrapper--3NHv3",
+  "metric_name": "index__title--17hgA",
+  "metric_value": "//div[@class='index__value--2mcTn']",
+  "product_panel": "arco-table-body",
+  "switch_to_english": "index__languageSelector--1M4jp",
+  "select_english": "arco-select-option"
+}
